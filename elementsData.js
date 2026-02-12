@@ -8,13 +8,5 @@ const elements = [
   {Z:7, symbol:"N", name:"Nitrogen", group:15, period:2, block:"p"},
   {Z:8, symbol:"O", name:"Oxigen", group:16, period:2, block:"p"},
   {Z:9, symbol:"F", name:"Fluor", group:17, period:2, block:"p"},
-  {Z:10, symbol:"Ne", name:"Neó", group:18, period:2, block:"p"},
-  {Z:11, symbol:"Na", name:"Sodi", group:1, period:3, block:"s"},
-  {Z:12, symbol:"Mg", name:"Magnesi", group:2, period:3, block:"s"},
-  {Z:13, symbol:"Al", name:"Alumini", group:13, period:3, block:"p"},
-  {Z:14, symbol:"Si", name:"Silici", group:14, period:3, block:"p"},
-  {Z:15, symbol:"P", name:"Fòsfor", group:15, period:3, block:"p"},
-  {Z:16, symbol:"S", name:"Sofre", group:16, period:3, block:"p"},
-  {Z:17, symbol:"Cl", name:"Clor", group:17, period:3, block:"p"},
-  {Z:18, symbol:"Ar", name:"Argó", group:18, period:3, block:"p"}
+  {Z:10, symbol:"Ne", name:"Neó", group:18, period:2, block:"p"}
 ];
