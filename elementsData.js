@@ -1,6 +1,7 @@
 const elements = [
   {Z:1, symbol:"H", name:"Hidrogen", group:1, period:1, block:"s"},
   {Z:2, symbol:"He", name:"Heli", group:18, period:1, block:"s"},
+
   {Z:3, symbol:"Li", name:"Liti", group:1, period:2, block:"s"},
   {Z:4, symbol:"Be", name:"Beril·li", group:2, period:2, block:"s"},
   {Z:5, symbol:"B", name:"Bor", group:13, period:2, block:"p"},
@@ -8,5 +9,35 @@ const elements = [
   {Z:7, symbol:"N", name:"Nitrogen", group:15, period:2, block:"p"},
   {Z:8, symbol:"O", name:"Oxigen", group:16, period:2, block:"p"},
   {Z:9, symbol:"F", name:"Fluor", group:17, period:2, block:"p"},
-  {Z:10, symbol:"Ne", name:"Neó", group:18, period:2, block:"p"}
+  {Z:10, symbol:"Ne", name:"Neó", group:18, period:2, block:"p"},
+
+  {Z:11, symbol:"Na", name:"Sodi", group:1, period:3, block:"s"},
+  {Z:12, symbol:"Mg", name:"Magnesi", group:2, period:3, block:"s"},
+  {Z:13, symbol:"Al", name:"Alumini", group:13, period:3, block:"p"},
+  {Z:14, symbol:"Si", name:"Silici", group:14, period:3, block:"p"},
+  {Z:15, symbol:"P", name:"Fòsfor", group:15, period:3, block:"p"},
+  {Z:16, symbol:"S", name:"Sofre", group:16, period:3, block:"p"},
+  {Z:17, symbol:"Cl", name:"Clor", group:17, period:3, block:"p"},
+  {Z:18, symbol:"Ar", name:"Argó", group:18, period:3, block:"p"},
+
+  {Z:19, symbol:"K", name:"Potassi", group:1, period:4, block:"s"},
+  {Z:20, symbol:"Ca", name:"Calci", group:2, period:4, block:"s"},
+
+  {Z:21, symbol:"Sc", name:"Escandi", group:3, period:4, block:"d"},
+  {Z:22, symbol:"Ti", name:"Titani", group:4, period:4, block:"d"},
+  {Z:23, symbol:"V", name:"Vanadi", group:5, period:4, block:"d"},
+  {Z:24, symbol:"Cr", name:"Crom", group:6, period:4, block:"d"},
+  {Z:25, symbol:"Mn", name:"Manganès", group:7, period:4, block:"d"},
+  {Z:26, symbol:"Fe", name:"Ferro", group:8, period:4, block:"d"},
+  {Z:27, symbol:"Co", name:"Cobalt", group:9, period:4, block:"d"},
+  {Z:28, symbol:"Ni", name:"Níquel", group:10, period:4, block:"d"},
+  {Z:29, symbol:"Cu", name:"Coure", group:11, period:4, block:"d"},
+  {Z:30, symbol:"Zn", name:"Zinc", group:12, period:4, block:"d"},
+
+  {Z:31, symbol:"Ga", name:"Gal·li", group:13, period:4, block:"p"},
+  {Z:32, symbol:"Ge", name:"Germani", group:14, period:4, block:"p"},
+  {Z:33, symbol:"As", name:"Arsènic", group:15, period:4, block:"p"},
+  {Z:34, symbol:"Se", name:"Seleni", group:16, period:4, block:"p"},
+  {Z:35, symbol:"Br", name:"Brom", group:17, period:4, block:"p"},
+  {Z:36, symbol:"Kr", name:"Criptó", group:18, period:4, block:"p"}
 ];
