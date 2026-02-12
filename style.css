@@ -69,3 +69,15 @@ header {
 .hidden {
   display: none;
 }
+@media (max-width: 1200px) {
+  .periodic-table {
+    transform: scale(0.9);
+    transform-origin: top left;
+  }
+}
+
+@media (max-width: 900px) {
+  .periodic-table {
+    transform: scale(0.8);
+  }
+}
