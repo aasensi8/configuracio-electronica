@@ -1,13 +1,19 @@
+/* RESET BÀSIC */
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   background: #f4f6fa;
 }
 
+/* HEADER */
 header {
   background: #1e293b;
   color: white;
-  padding: 15px;
+  padding: 20px;
   text-align: center;
 }
 
@@ -15,69 +21,92 @@ header {
   margin-top: 10px;
 }
 
+/* CONTENIDOR PRINCIPAL */
 .container {
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
   gap: 20px;
+  align-items: flex-start;
 }
 
+/* TAULA PERIÒDICA */
 .periodic-table {
   display: grid;
-  grid-template-columns: repeat(18, 60px);
-  gap: 5px;
+  grid-template-columns: repeat(18, minmax(35px, 1fr));
+  grid-template-rows: repeat(7, 60px);
+  gap: 6px;
+  width: 100%;
+  max-width: 100%;
 }
 
+/* ELEMENTS */
 .element {
-  padding: 10px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
   border-radius: 8px;
   cursor: pointer;
-  font-weight: bold;
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  font-size: 14px;
+  color: #1e293b;
 }
 
 .element:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  transform: scale(1.08);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
 }
 
-.block-s { background: #60a5fa; }
-.block-p { background: #4ade80; }
-.block-d { background: #fb923c; }
-.block-f { background: #c084fc; }
-
-.focus-off {
-  opacity: 0.3;
+/* COLORS PER BLOCS */
+.block-s {
+  background: #60a5fa;
 }
 
+.block-p {
+  background: #4ade80;
+}
+
+.block-d {
+  background: #fb923c;
+}
+
+.block-f {
+  background: #c084fc;
+}
+
+/* PANEL D'INFORMACIÓ */
 .info-panel {
   flex: 1;
-  min-width: 250px;
+  min-width: 260px;
   background: white;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
 }
 
 .theory {
   margin-top: 15px;
-  padding: 10px;
+  padding: 12px;
   background: #e2e8f0;
   border-radius: 8px;
+  font-size: 14px;
 }
 
 .hidden {
   display: none;
 }
+
+/* RESPONSIVE PER GOOGLE SITES */
 @media (max-width: 1200px) {
   .periodic-table {
-    transform: scale(0.9);
+    transform: scale(0.95);
     transform-origin: top left;
   }
 }
 
 @media (max-width: 900px) {
   .periodic-table {
-    transform: scale(0.8);
+    transform: scale(0.85);
   }
 }
