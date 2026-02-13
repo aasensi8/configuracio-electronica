@@ -10,6 +10,7 @@
 
 <header>
   <h1>Model electrònic i Taula Periòdica</h1>
+  <p class="subtitle">Explora els elements (Z ≤ 36), la configuració electrònica i els electrons de valència.</p>
   <div class="toggles">
     <label><input type="checkbox" id="toggleTheory"> Mostrar teoria</label>
     <label><input type="checkbox" id="toggleFocus" checked> Mode focus (Z ≤ 36)</label>
@@ -18,10 +19,22 @@
 
 <div class="container">
   <div id="periodicTable" class="periodic-table"></div>
+
   <div class="info-panel">
     <h2 id="elementName">Selecciona un element</h2>
     <p id="elementData"></p>
-    <div id="configOutput"></div>
+    <div id="configOutput" class="config-output"></div>
+
+    <div class="quiz-box">
+      <h3>Mini repte</h3>
+      <p>Quants electrons de valència té aquest element?</p>
+      <div class="quiz-controls">
+        <input id="valenceInput" type="number" min="0" max="8" placeholder="Resposta">
+        <button id="checkBtn">Comprova</button>
+      </div>
+      <p id="quizResult"></p>
+    </div>
+
     <div id="theoryBox" class="theory hidden"></div>
   </div>
 </div>
